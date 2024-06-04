@@ -1,0 +1,7 @@
+commands for docker 
+docker pull image (gets image)
+docker images (lists images)
+docker run image (runs container)
+docker cd (lists containers)
+docker build -t imagename (creates image from dockerfile)
+docker run -ti image (runs container in interactive environment)
