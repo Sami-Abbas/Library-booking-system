@@ -22,7 +22,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: execute script
-      run: python main.py
+      run: python library system code.py
 
     - name: commit files
       run: |
