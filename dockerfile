@@ -1,4 +1,4 @@
-FROM python:3
+FROM gradle
 WORKDIR /app
 COPY . /app/
-CMD ["python3", "library system code.py"]
+CMD ["gradle", "library system code.py"]
